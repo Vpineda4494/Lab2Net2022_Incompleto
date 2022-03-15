@@ -1,0 +1,11 @@
+using Proyecto1.Entities;
+
+namespace Proyecto1.Interfaces
+{
+    public interface IOperacion
+    {
+        public void ListarMisDatos(string Id);
+        public bool EliminarAsignatura(string Asignatura);
+    }
+
+}
